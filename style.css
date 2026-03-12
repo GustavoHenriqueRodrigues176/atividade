@@ -20,11 +20,12 @@ header {
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+/* título do portal centralizado */
 header h1 {
+  text-align: center;
   margin-bottom: 15px;
   font-size: 2.5rem;
   letter-spacing: 2px;
-  text-align: center;
 }
 
 /* navegação */
@@ -65,13 +66,12 @@ article, section {
   margin-bottom: 30px;
 }
 
-/* centralizar conteúdo do artigo */
+/* centraliza conteúdo da notícia */
 article {
   text-align: center;
 }
 
-article h2,
-section h3 {
+article h2, section h3 {
   color: #004a8d;
   margin-bottom: 15px;
 }
@@ -84,7 +84,7 @@ article img {
   border: 1px solid #e0e0e0;
 }
 
-/* listas e outras notícias */
+/* listas de notícias */
 section ul {
   list-style: none;
 }
